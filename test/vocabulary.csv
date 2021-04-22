@@ -4,6 +4,8 @@ TestInstance,Class,test instance,A specific project to execute a test suite on a
 TestService,Class,test service,A software service where tests can be run,,
 TestDefinition,Class,test definition,A set of metadata that describes how to run the test,,
 PlanemoEngine,Class,Planemo engine,https://github.com/galaxyproject/planemo,,
+PytestWorkflowEngine,Class,Pytest-workflow engine,https://github.com/LUMC/pytest-workflow,,
+BashEngine,Class,Bash engine,https://www.gnu.org/software/bash,,
 JenkinsService,Class,Jenkins service,https://www.jenkins.io,,
 TravisService,Class,Travis service,https://travis-ci.com,,
 GithubService,Class,Github Actions service,https://github.com,,
