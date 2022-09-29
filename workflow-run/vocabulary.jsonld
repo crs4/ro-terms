@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/"
+    },
+    "@graph": [
+        {
+            "@id": "https://w3id.org/ro/terms/workflow-run#hasStep",
+            "@type": "rdf:Property",
+            "schema:domainIncludes": {
+                "@id": "schema:Action"
+            },
+            "schema:rangeIncludes": {
+                "@id": "schema:Action"
+            },
+            "rdfs:comment": "Indicates an action that represents a partial execution of this action.",
+            "rdfs:label": "hasStep"
+        }
+    ],
+    "@id": "https://w3id.org/ro/terms/workflow-run"
+}
